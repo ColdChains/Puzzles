@@ -99,7 +99,6 @@ class ShowViewController: UIViewController{
             let name = (i as! NSDictionary).object(forKey: "name") as! String
             names.append(name)
         }
-        print("\n\n--========\n\(names)")
         return names
     }
     

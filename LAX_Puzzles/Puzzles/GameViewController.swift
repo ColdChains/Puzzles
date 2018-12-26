@@ -123,7 +123,7 @@ class GameViewController: UIViewController {
         label.text = "步数：\(step)"
         
         if isMoving(p1: (tap.view?.center)!, p2: location) {
-            UIView.animate(withDuration: 0.5, animations: {
+            UIView.animate(withDuration: 0.25, animations: {
                 self.startMoving(view: tap.view!)
             })
         }

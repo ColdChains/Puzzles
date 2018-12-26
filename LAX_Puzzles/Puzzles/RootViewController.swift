@@ -53,6 +53,19 @@ class RootViewController: UIViewController, SetLevelProtocol {
         set.addTarget(self, action: #selector(self.setClick(sender:)), for: .touchUpInside)
         self.view.addSubview(set)
         
+        let button = UIButton.init()
+        button.frame = CGRect(x: 0, y: 0, width: 30, height: 30)
+        button.setTitle("动画", for: .normal)
+        button.setTitleColor(UIColor.blue, for: .normal)
+        button.addTarget(self, action: #selector(self.rightAction(sender:)), for: .touchUpInside)
+        navigationItem.leftBarButtonItem = UIBarButtonItem(customView: button)
+    }
+    
+    @objc func rightAction(sender: UIButton) {
+        LAXAnimation.defaultAnimation(withDuration: 1, target: view.window)
+        let vc = AnimationViewController()
+        navigationController?.pushViewController(vc, animated: true)
+//        UIApplication.shared.windows.first?.rootViewController = vc
     }
     
     @objc func startClick(sender: UIButton) {

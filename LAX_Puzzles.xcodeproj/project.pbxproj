@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1837873221D39E8D00F14720 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837873121D39E8C00F14720 /* ViewController.m */; };
+		1837873721D39EDB00F14720 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837873521D39EDB00F14720 /* AnimationViewController.m */; };
+		1837873821D39EDB00F14720 /* AnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1837873621D39EDB00F14720 /* AnimationViewController.xib */; };
+		1837873F21D39FAA00F14720 /* LAXAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837873D21D39FAA00F14720 /* LAXAnimation.m */; };
+		1837874321D39FD000F14720 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837874121D39FD000F14720 /* TestViewController.m */; };
+		1837874421D39FD000F14720 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1837874221D39FD000F14720 /* TestViewController.xib */; };
 		572421CD1D77A41A0010CFDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572421CC1D77A41A0010CFDB /* AppDelegate.swift */; };
 		572421D21D77A41A0010CFDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 572421D01D77A41A0010CFDB /* Main.storyboard */; };
 		572421D41D77A41A0010CFDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 572421D31D77A41A0010CFDB /* Assets.xcassets */; };
@@ -42,6 +48,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1837872F21D39E8B00F14720 /* LAX_Puzzles-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LAX_Puzzles-Bridging-Header.h"; sourceTree = "<group>"; };
+		1837873021D39E8C00F14720 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1837873121D39E8C00F14720 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1837873421D39EDB00F14720 /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
+		1837873521D39EDB00F14720 /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
+		1837873621D39EDB00F14720 /* AnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimationViewController.xib; sourceTree = "<group>"; };
+		1837873D21D39FAA00F14720 /* LAXAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAXAnimation.m; sourceTree = "<group>"; };
+		1837873E21D39FAA00F14720 /* LAXAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAXAnimation.h; sourceTree = "<group>"; };
+		1837874021D39FD000F14720 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		1837874121D39FD000F14720 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		1837874221D39FD000F14720 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 		572421C91D77A41A0010CFDB /* LAX_Puzzles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LAX_Puzzles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		572421CC1D77A41A0010CFDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		572421D11D77A41A0010CFDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -89,6 +106,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1837873321D39E9200F14720 /* Puzzles */ = {
+			isa = PBXGroup;
+			children = (
+				572421E01D77AA2D0010CFDB /* RootViewController.swift */,
+				576EF4AC1D79DAF1006E3401 /* SetViewController.swift */,
+				576EF4AD1D79DAF1006E3401 /* SetViewController.xib */,
+				572422091D77E1880010CFDB /* GameViewController.swift */,
+				5724220A1D77E1880010CFDB /* GameViewController.xib */,
+				57A404901D788611007C0B83 /* ShowViewController.swift */,
+				57A404941D788649007C0B83 /* QFImageView.swift */,
+			);
+			path = Puzzles;
+			sourceTree = "<group>";
+		};
+		1837874521D39FEC00F14720 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				1837874621D3A6EC00F14720 /* LAXAnimation */,
+				1837873021D39E8C00F14720 /* ViewController.h */,
+				1837873121D39E8C00F14720 /* ViewController.m */,
+				1837873421D39EDB00F14720 /* AnimationViewController.h */,
+				1837873521D39EDB00F14720 /* AnimationViewController.m */,
+				1837873621D39EDB00F14720 /* AnimationViewController.xib */,
+				1837874021D39FD000F14720 /* TestViewController.h */,
+				1837874121D39FD000F14720 /* TestViewController.m */,
+				1837874221D39FD000F14720 /* TestViewController.xib */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		1837874621D3A6EC00F14720 /* LAXAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				1837873E21D39FAA00F14720 /* LAXAnimation.h */,
+				1837873D21D39FAA00F14720 /* LAXAnimation.m */,
+			);
+			path = LAXAnimation;
+			sourceTree = "<group>";
+		};
 		572421C01D77A41A0010CFDB = {
 			isa = PBXGroup;
 			children = (
@@ -108,20 +164,15 @@
 		572421CB1D77A41A0010CFDB /* LAX_Puzzles */ = {
 			isa = PBXGroup;
 			children = (
+				1837874521D39FEC00F14720 /* Animation */,
+				1837873321D39E9200F14720 /* Puzzles */,
 				572421CC1D77A41A0010CFDB /* AppDelegate.swift */,
-				572421E01D77AA2D0010CFDB /* RootViewController.swift */,
-				576EF4AC1D79DAF1006E3401 /* SetViewController.swift */,
-				576EF4AD1D79DAF1006E3401 /* SetViewController.xib */,
-				572422091D77E1880010CFDB /* GameViewController.swift */,
-				5724220A1D77E1880010CFDB /* GameViewController.xib */,
-				57A404901D788611007C0B83 /* ShowViewController.swift */,
-				57A404941D788649007C0B83 /* QFImageView.swift */,
 				57A405071D789C7E007C0B83 /* images */,
-				572421E61D77D9900010CFDB /* animation */,
 				572421D01D77A41A0010CFDB /* Main.storyboard */,
 				572421D31D77A41A0010CFDB /* Assets.xcassets */,
 				572421D51D77A41A0010CFDB /* LaunchScreen.storyboard */,
 				572421D81D77A41A0010CFDB /* Info.plist */,
+				1837872F21D39E8B00F14720 /* LAX_Puzzles-Bridging-Header.h */,
 			);
 			path = LAX_Puzzles;
 			sourceTree = "<group>";
@@ -150,6 +201,7 @@
 		57A405071D789C7E007C0B83 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				572421E61D77D9900010CFDB /* animation */,
 				57A405081D789C7E007C0B83 /* AlbumData.plist */,
 				57A405091D789C7E007C0B83 /* king0.png */,
 				57A4050A1D789C7E007C0B83 /* king1.png */,
@@ -193,6 +245,8 @@
 				TargetAttributes = {
 					572421C81D77A41A0010CFDB = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6E7363BSKG;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -222,6 +276,7 @@
 				572421F61D77D9900010CFDB /* player1.png in Resources */,
 				572421D71D77A41A0010CFDB /* LaunchScreen.storyboard in Resources */,
 				572421FB1D77D9900010CFDB /* player3.png in Resources */,
+				1837873821D39EDB00F14720 /* AnimationViewController.xib in Resources */,
 				572422021D77D9900010CFDB /* q.jpg in Resources */,
 				57A405131D789C7E007C0B83 /* king3.png in Resources */,
 				5724220C1D77E1880010CFDB /* GameViewController.xib in Resources */,
@@ -244,6 +299,7 @@
 				57A4050F1D789C7E007C0B83 /* AlbumData.plist in Resources */,
 				572421F81D77D9900010CFDB /* player11.png in Resources */,
 				57A405151D789C7E007C0B83 /* king5.png in Resources */,
+				1837874421D39FD000F14720 /* TestViewController.xib in Resources */,
 				572421F51D77D9900010CFDB /* map.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,10 +311,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1837873221D39E8D00F14720 /* ViewController.m in Sources */,
 				5724220B1D77E1880010CFDB /* GameViewController.swift in Sources */,
 				576EF4AE1D79DAF1006E3401 /* SetViewController.swift in Sources */,
+				1837873721D39EDB00F14720 /* AnimationViewController.m in Sources */,
+				1837874321D39FD000F14720 /* TestViewController.m in Sources */,
 				57A404971D788649007C0B83 /* QFImageView.swift in Sources */,
 				572421CD1D77A41A0010CFDB /* AppDelegate.swift in Sources */,
+				1837873F21D39FAA00F14720 /* LAXAnimation.m in Sources */,
 				572421E11D77AA2D0010CFDB /* RootViewController.swift in Sources */,
 				57A404911D788611007C0B83 /* ShowViewController.swift in Sources */,
 			);
@@ -373,12 +433,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 6E7363BSKG;
 				INFOPLIST_FILE = LAX_Puzzles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sdut.LAX-Puzzles";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lax.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LAX_Puzzles/LAX_Puzzles-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -387,12 +450,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 6E7363BSKG;
 				INFOPLIST_FILE = LAX_Puzzles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sdut.LAX-Puzzles";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lax.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LAX_Puzzles/LAX_Puzzles-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
